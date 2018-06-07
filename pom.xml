@@ -25,20 +25,22 @@
   </dependencies>
 <profiles>
 	<profile>
-     <id>xyz-deploy</id>
+     <id>Project1-deploy</id>
  <distributionManagement>
     <repository>
-      <id>xyz-releases</id>
-      <name>xyz-releases</name>
-      <url>http://ec2-18-188-238-195.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/xyz-releases/</url>
+      <id>Project1-releases</id>
+      <name>Project1-releases</name>
+      <url>http://ec2-18-191-111-190.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/Project1-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>xyz-snapshots</id>
-      <name>xyz-snapshots</name>
-      <url>http://ec2-18-188-238-195.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/xyz-snapshots/</url>
+      <id>Project1-Snapshot</id>
+      <name>Project1-Snapshot</name>
+      <url>http://ec2-18-191-111-190.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/Project1-Snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
+
+
 	
 <profile>
      <id>spring-deploy</id>
